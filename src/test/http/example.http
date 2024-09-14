@@ -1,0 +1,15 @@
+### 생성
+POST {{url}}/notification-service
+Content-Type: application/json
+Member-Code: eyJubyI6MSwibmFtZSI6Im5hbWUiLCJhY2NvdW50IjoiYWNjb3VudCJ9
+
+{
+  "title": "title3",
+  "body": "body3",
+  "link": "link3"
+}
+
+### 조회
+GET {{url}}/notification-service
+Content-Type: application/json
+Member-Code: eyJubyI6MSwibmFtZSI6Im5hbWUiLCJhY2NvdW50IjoiYWNjb3VudCJ9
