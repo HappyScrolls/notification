@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-slim
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
-EXPOSE 8085
+EXPOSE 8034
 
 # The application's jar file
 ARG JAR_FILE=build/libs/notification-0.0.1-SNAPSHOT.jar
